@@ -1,3 +1,4 @@
+```yaml
 pipeline {
     agent any
     
@@ -26,3 +27,4 @@ pipeline {
         }
     }
 }
+```
