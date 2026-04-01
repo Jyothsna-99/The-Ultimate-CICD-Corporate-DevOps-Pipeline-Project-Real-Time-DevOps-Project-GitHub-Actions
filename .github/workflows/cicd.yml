@@ -55,7 +55,7 @@ jobs:
         docker build -t jyothsnav/boardgame:latest .
     - name: Trivy Image Scan
       run: |
-        trivy image --format table -o trivy-image-report.html jyothsnav/board:latest
+        trivy image --format table -o trivy-image-report.html jyothsnav/boardgame:latest
     - name: Login to Docker Hub
       uses: docker/login-action@v3
       with:
